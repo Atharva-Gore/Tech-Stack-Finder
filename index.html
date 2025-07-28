@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🧠 Tech Stack Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🧠 Tech Stack Finder</h1>
+      <button id="toggleMode">🌙</button>
+    </header>
+
+    <div class="input-group">
+      <input type="text" id="urlInput" placeholder="Enter website URL (e.g. https://github.com)" />
+      <button onclick="analyzeWebsite()">Analyze</button>
+    </div>
+
+    <div id="result" class="stack-results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
